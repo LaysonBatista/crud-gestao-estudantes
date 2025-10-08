@@ -7,17 +7,17 @@ erDiagram
         email VARCHAR(30) "UNIQUE"
     }
 
-    MATRICULAS_ESTUDANTE {
+    MATRICULAS {
         id_matricula INT PK "NOT NULL"
         data_matricula DATE "NOT NULL"
-        status VARCHAR(45) "NOT NULL"
+        status_matricula VARCHAR(45) "NOT NULL"
         id_estudante INT FK "UNIQUE"
         id_curso INT FK "UNIQUE"
     }
 
     NOTAS {
         id_nota INT PK "NOT NULL"
-        nota_estudante DECIMAL(4) "NOT NULL"
+        nota_estudante DECIMAL "NOT NULL"
         semestre VARCHAR(14) "NOT NULL"
         id_matricula INT FK "NOT NULL"
     }
@@ -28,6 +28,6 @@ erDiagram
         carga_horaria INT "NOT NULL"
     }
 
-    ESTUDANTES ||--o{ MATRICULAS_ESTUDANTE : "possui"
-    CURSOS ||--o{ MATRICULAS_ESTUDANTE : "tem"
-    MATRICULAS_ESTUDANTE ||--o{ NOTAS : "recebe"
+    ESTUDANTES ||--o{ MATRICULAS : "possui"
+    CURSOS ||--o{ MATRICULAS : "tem"
+    MATRICULAS ||--o{ NOTAS : "recebe"
