@@ -10,7 +10,7 @@ public class ControllerEstudante {
     // CREATE
     public void adicionarEstudante(Estudante estudante) {
         estudantes.add(estudante);
-        System.out.println("✅ Estudante adicionado com sucesso!");
+        System.out.println("Estudante adicionado com sucesso!");
     }
 
     // READ
@@ -24,16 +24,16 @@ public class ControllerEstudante {
             if (e.getIdEstudante() == id) {
                 e.setNome(novoNome);
                 e.setEmail(novoEmail);
-                System.out.println("✅ Estudante atualizado com sucesso!");
+                System.out.println("Estudante atualizado com sucesso!");
                 return;
             }
         }
-        System.out.println("⚠️ Estudante não encontrado!");
+        System.out.println("Estudante não encontrado!");
     }
 
     // DELETE
     public void removerEstudante(int id) {
         estudantes.removeIf(e -> e.getIdEstudante() == id);
-        System.out.println("✅ Estudante removido com sucesso!");
+        System.out.println("Estudante removido com sucesso!");
     }
 }

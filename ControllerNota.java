@@ -10,7 +10,7 @@ public class ControllerNota {
     // CREATE
     public void adicionarNota(Nota nota) {
         notas.add(nota);
-        System.out.println("✅ Nota adicionada com sucesso!");
+        System.out.println("Nota adicionada com sucesso!");
     }
 
     // READ
@@ -24,16 +24,16 @@ public class ControllerNota {
             if (n.getIdNota() == id) {
                 n.setNotaEstudante(novaNota);
                 n.setSemestre(novoSemestre);
-                System.out.println("✅ Nota atualizada com sucesso!");
+                System.out.println("Nota atualizada com sucesso!");
                 return;
             }
         }
-        System.out.println("⚠️ Nota não encontrada!");
+        System.out.println("Nota não encontrada!");
     }
 
     // DELETE
     public void removerNota(int id) {
         notas.removeIf(n -> n.getIdNota() == id);
-        System.out.println("✅ Nota removida com sucesso!");
+        System.out.println("Nota removida com sucesso!");
     }
 }

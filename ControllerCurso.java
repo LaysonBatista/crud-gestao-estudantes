@@ -28,12 +28,12 @@ public class ControllerCurso {
                 return;
             }
         }
-        System.out.println("⚠️ Curso não encontrado!");
+        System.out.println("Curso não encontrado!");
     }
 
     // DELETE
     public void removerCurso(int id) {
         cursos.removeIf(c -> c.getIdCurso() == id);
-        System.out.println("✅ Curso removido com sucesso!");
+        System.out.println("Curso removido com sucesso!");
     }
 }

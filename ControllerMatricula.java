@@ -10,7 +10,7 @@ public class ControllerMatricula {
     // CREATE
     public void adicionarMatricula(Matricula matricula) {
         matriculas.add(matricula);
-        System.out.println("✅ Matrícula adicionada com sucesso!");
+        System.out.println("Matrícula adicionada com sucesso!");
     }
 
     // READ
@@ -23,16 +23,16 @@ public class ControllerMatricula {
         for (Matricula m : matriculas) {
             if (m.getIdMatricula() == id) {
                 m.setStatusMatricula(novoStatus);
-                System.out.println("✅ Matrícula atualizada com sucesso!");
+                System.out.println("Matrícula atualizada com sucesso!");
                 return;
             }
         }
-        System.out.println("⚠️ Matrícula não encontrada!");
+        System.out.println("Matrícula não encontrada!");
     }
 
     // DELETE
     public void removerMatricula(int id) {
         matriculas.removeIf(m -> m.getIdMatricula() == id);
-        System.out.println("✅ Matrícula removida com sucesso!");
+        System.out.println("Matrícula removida com sucesso!");
     }
 }
