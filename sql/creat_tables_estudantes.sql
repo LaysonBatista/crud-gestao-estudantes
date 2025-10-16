@@ -55,4 +55,4 @@ FOREIGN KEY (id_matricula)
 REFERENCES MATRICULAS (id_matricula);
 
 /*Garante acesso total as tabelas*/
-GRANT ALL ON LABDATABASE.* TO 'labdatabase'@'%';
+GRANT ALL ON labdatabase.* TO 'labdatabase'@'%';

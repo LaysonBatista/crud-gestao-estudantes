@@ -16,8 +16,6 @@ VALUES
 ('Ciência de Dados', 4000),
 ('Marketing Digital', 3000);
 
-SELECT * FROM CURSOS;
-
 /*INSERE DADOS NA TABELA DE MATRICULAS*/
 INSERT INTO labdatabase.MATRICULAS (data_matricula, status_matricula, id_estudante, id_curso)
 VALUES
