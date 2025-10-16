@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import utils.splash_screen;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,6 +9,7 @@ public class Main {
         System.out.println("====================================");
         System.out.println("     SISTEMA DE GESTÃO DE ESTUDANTES");
         System.out.println("====================================");
+        splash_screen.exibirContagemRegistros();
         System.out.println("Professor: Howard Roatti");
         System.out.println("Disciplina: Banco de Dados");
         System.out.println("Semestre: 2025/2\n");
