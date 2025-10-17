@@ -2,12 +2,12 @@
 
 ### Execução manual
 
-0. obs: Antes de tudo, inicie o banco de dados mysql no terminal do Ubunto (certifique-se de estar na pasta "database_services"):
+0. obs: Antes de tudo, inicie o banco de dados MySQL no terminal do Ubunto (certifique-se de estar na pasta "database_services" para executar o comando):
 ```bash
 docker compose up -d mysql
 ```
 
-1. Faça um clone do projeto em alguma pasta (lembre-se de executar o comando 'git init' nela antes de fazer o clone):
+1. Faça um clone do projeto em alguma pasta:
 ```bash
 git clone https://github.com/LaysonBatista/crud-gestao-estudantes
 ```
