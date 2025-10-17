@@ -2,7 +2,7 @@
 
 ### Execução manual
 
-0. obs: Antes de tudo, inicie o banco de dados MySQL no terminal do Ubunto (certifique-se de estar na pasta "database_services" para executar o comando):
+obs: Antes de tudo, inicie o banco de dados MySQL no terminal do Ubunto (certifique-se de estar na pasta "database_services" para executar o comando):
 ```bash
 docker compose up -d mysql
 ```
