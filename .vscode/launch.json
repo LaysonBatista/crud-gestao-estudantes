@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Main (UTF-8)",
+      "request": "launch",
+      "mainClass": "Main",
+      "vmArgs": "-Dfile.encoding=UTF-8"
+    }
+  ]
+}

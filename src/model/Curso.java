@@ -1,3 +1,5 @@
+package model;
+
 public class Curso {
     private int idCurso;
     private String nomeCurso;

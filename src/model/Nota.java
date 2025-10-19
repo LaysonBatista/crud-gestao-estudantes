@@ -1,3 +1,5 @@
+package model;
+
 public class Nota {
     private int idNota;
     private double notaEstudante;
