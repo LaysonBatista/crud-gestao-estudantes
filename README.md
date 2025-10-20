@@ -20,7 +20,7 @@ docker compose up -d mysql
 git clone https://github.com/LaysonBatista/crud-gestao-estudantes
 ```
 
-2. Compile o projeto:
+2. Na pasta do projeto, Compile:
 ```bash
 javac -d bin -cp "lib/mysql-connector-java-8.0.30.jar" src/*.java src/conexion/*.java src/controller/*.java src/model/*.java src/reports/*.java src/utils/*.java
 ```
