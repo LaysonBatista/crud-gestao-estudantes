@@ -1,8 +1,8 @@
-# Sistema de Gestão de Estudantes | CRUD realizado com MySQL
+# Sistema de Gestão de Estudantes | Java & MySQL
 
 Esse sistema é composto por um conjunto de tabelas que representam a gestão de estudantes, contendo tabelas como: estudantes, cursos, matriculas e notas.
 
-Esse sistema deverá ser executado no ambiente proposto: Linux (Ubunto)
+Esse sistema deverá ser executado no ambiente proposto: Linux (Ubunto).
 
 O sistema exige que as tabelas existam, então basta compilar o projeto e executar o script Java de configuração do banco de dados "DatabaseSetup.java" para criação das tabelas e preenchimento de dados de exemplos, siga os passos a seguir.
 
