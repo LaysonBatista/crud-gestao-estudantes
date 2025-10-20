@@ -50,13 +50,6 @@ O script `DatabaseSetup.java` irá:
 5. **Inserir** dados de exemplo nas tabelas para realizar o select na splash_screen
 6. **Desconectar** do banco de dados
 
-## Estrutura das Tabelas Criadas
-
-- **ESTUDANTES**: id_estudante, nome, data_nascimento, cpf, email
-- **CURSOS**: id_curso, nome_curso, carga_horaria
-- **MATRICULAS**: id_matricula, data_matricula, status_matricula, id_estudante, id_curso
-- **NOTAS**: id_nota, nota_estudante, semestre, id_matricula
-
 ## Pré-requisitos para execução do sistema
 
 ### 1. Softwares Necessários
