@@ -243,7 +243,6 @@ public class NotaController {
                 if (count == 0)
                     System.out.println("Nenhum registro.");
                 System.out.println();
-                System.out.println("-- NOTAS --");
             }
         } catch (SQLException e) {
             System.err.println("Erro ao listar por curso/semestre: " + e.getMessage());
