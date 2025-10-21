@@ -60,11 +60,6 @@ O script `DatabaseSetup.java` irá:
 - **Versão**: JDK 8 ou superior
 - **Verificação**: `java -version` e `javac -version`
 
-#### MySQL Server
-- **Versão**: MySQL 5.7 ou superior (recomendado 8.0+)
-- **Porta**: 3306 (padrão)
-- **Verificação**: `mysql --version`
-
 #### Docker 
 - **Para**: Executar MySQL via Docker compose
 - **Verficação**: `docker --version` e `docker-compose --version`
