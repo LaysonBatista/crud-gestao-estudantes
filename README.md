@@ -6,6 +6,8 @@ Esse sistema deverá ser executado no ambiente proposto: Linux (Ubunto).
 
 O sistema exige que as tabelas existam, então basta compilar o projeto e executar o script Java de configuração do banco de dados "DatabaseSetup.java" para criação das tabelas e preenchimento de dados de exemplos, siga os passos a seguir.
 
+-> Video de demonstração: https://youtu.be/1Hq6aYKLh-M?si=z_N9gXrsLoeSdiwV
+
 ## Executando o Script de Configuração do Banco de dados
 
 ### Execução manual
